@@ -1,5 +1,5 @@
 import MainNavbar from '../userComponents/navigation/mainNavbar'
-import ProductCard from '../userComponents/Pelatihan/Pelatihan'
+// import ProductCard from '../userComponents/Pelatihan/Pelatihan'
 import MainFooter from '../userComponents/navigation/MainFooter'
 import Banner from '../userComponents/banner/Banner'
 
