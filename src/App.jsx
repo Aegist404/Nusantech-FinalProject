@@ -1,9 +1,11 @@
-import Home from "./userPages/Home"
+// import Home from "./userPages/Home"
+import Sidebar from "./adminComponents/sidebar/Sidebar"
 
 function App() {
   return (
     <>
-      <Home />
+      {/* <Home /> */}
+      <Sidebar/>
     </>
   )
 }
