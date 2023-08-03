@@ -41,14 +41,12 @@ const mainFooter = () => {
 
                 {/* Buttons */}
                 <div className="flex flex-col lg:flex-row lg:items-center space-y-4 lg:space-y-0 lg:space-x-4">
-                    <div className="">
                         <h3 className="text-lg font-semibold">Download NusaLMS Mobile</h3>
-                    </div>
                     <div className="space-x-4">
-                        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                        <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 focus:outline-none focus:bg-green-600">
                             Playstore
                         </button>
-                        <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 focus:outline-none focus:bg-green-600">
+                        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
                             App Store
                         </button>
                     </div>
