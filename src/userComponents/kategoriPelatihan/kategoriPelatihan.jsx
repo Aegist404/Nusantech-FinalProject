@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Typography, Button } from 'antd';
-import { CommentOutlined, StarOutlined, EyeOutlined } from '@ant-design/icons';
+// import { CommentOutlined, StarOutlined, EyeOutlined } from '@ant-design/icons';
 // import { RightCircleOutlined } from '@ant-design/icons';
 import dataKategoriPelatihan from '../../Data/dataKategoriPelatihan.jsx';
 
@@ -9,26 +9,25 @@ const { Text } = Typography;
 
 const KategoriPelatihan = () => {
   return (
-    <div className='ms-5'>
+      <div className='ms-2'>
     <div className="flex flex-wrap justify-center">
-      <div className="text">
-        <h4>Pelatihan</h4>
+      <div className="text ms-[1em] me-[2.4em]">
+        <h1 className='font-bold text-[20px] mt-12'>Kategori Pelatihan</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid molestias molestiae esse inventore voluptatibus officia inventore voluptatibus officia
-          <Button>Tampilkan semua</Button>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid molestias molestiae esse inventore voluptatibus officia inventore voluptatibus 
         </p>
         <br />
       </div>
       {dataKategoriPelatihan.map((item, index) => (
-        <Card key={index} className="w-52 m-1  " cover={<img alt="Gambar Pelatihan" src={item.image} />}>
+        <Card key={index} className="w-[220px] m-2   mb-2" cover={<img alt="Gambar Pelatihan" src={item.image} />}>
           <Meta
             title={<Text strong>{item.title}</Text>}
             description={
               <>
-                <div className="mb-2">
+                <div className="">
                   <Text>{item.description}</Text>
                 </div>
-                <div className="mb-2">
+                {/* <div className="mb-2">
                   <CommentOutlined style={{ marginRight: '4px' }} />
                   <span>{item.comments} Komentar</span>
                 </div>
@@ -44,7 +43,7 @@ const KategoriPelatihan = () => {
                   <div>
                     <Text type="danger">{item.price}</Text>
                   </div>
-                </div>
+                </div> */}
               </>
             }
           />
