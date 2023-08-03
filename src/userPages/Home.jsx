@@ -1,12 +1,15 @@
 import MainNavbar from '../userComponents/navbar/mainNavbar'
+// import KategoriPelatihan from '../userComponents/navbar/kategoriPelatihan/kategoriPelatihan'
+import ProductCard from '../userComponents/navbar/Pelatihan/Pelatihan'
 import MainFooter from '../userComponents/footer/mainFooter'
-import Banner from '../userComponents/banner/Banner'
 
 const Home = () => {
     return (
         <div>
             <MainNavbar />
-            <Banner/>
+
+            {/* <KategoriPelatihan/> */}
+            <ProductCard/>
             <MainFooter />
         </div>
     )

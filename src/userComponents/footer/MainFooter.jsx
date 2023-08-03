@@ -1,7 +1,7 @@
-import { InstagramFilled, FacebookFilled, TwitterSquareFilled, YoutubeFilled} from "@ant-design/icons"
+import { InstagramFilled, FacebookFilled, TwitterSquareFilled, YoutubeFilled } from "@ant-design/icons"
 const mainFooter = () => {
 
-    const icon = {fontSize: '30px'}
+    const icon = { fontSize: '30px' }
 
     return (
         <>
@@ -35,9 +35,9 @@ const mainFooter = () => {
                     <p className="mt-2">
                         <ul className="flex space-x-5">
                             <li><a href=""><FacebookFilled style={icon} /></a></li>
-                            <li><a href=""><InstagramFilled style={icon}  /></a></li>
-                            <li><a href=""><TwitterSquareFilled style={icon}  /></a></li>
-                            <li><a href=""><YoutubeFilled style={icon}  /></a></li>
+                            <li><a href=""><InstagramFilled style={icon} /></a></li>
+                            <li><a href=""><TwitterSquareFilled style={icon} /></a></li>
+                            <li><a href=""><YoutubeFilled style={icon} /></a></li>
                         </ul>
                     </p>
                 </div>
@@ -46,14 +46,14 @@ const mainFooter = () => {
                 <div className="flex flex-col lg:items-center space-y-4 lg:space-y-2">
                     <div className="">
                         <h3 className="text-lg font-semibold">Download NusaLMS Mobile</h3>
-                    </div>
-                    <div className="space-x-4">
-                        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
-                            Playstore
-                        </button>
-                        <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 focus:outline-none focus:bg-green-600">
-                            App Store
-                        </button>
+                        <div className="space-x-4">
+                            <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 focus:outline-none focus:bg-green-600">
+                                Playstore
+                            </button>
+                            <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+                                App Store
+                            </button>
+                        </div>
                     </div>
                 </div>
             </footer>

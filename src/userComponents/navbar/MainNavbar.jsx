@@ -69,6 +69,7 @@ const MainNavbar = () => {
                 </div>
             </nav>
         </>
+
     )
 }
 
