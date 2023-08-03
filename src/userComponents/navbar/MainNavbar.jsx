@@ -1,3 +1,5 @@
+import React from 'react'
+
 const MainNavbar = () => {
     return (
         <>
@@ -34,6 +36,7 @@ const MainNavbar = () => {
                 </div>
             </nav>
         </>
+
     )
 }
 
