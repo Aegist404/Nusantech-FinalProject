@@ -1,9 +1,30 @@
+import { DownOutlined, BellOutlined } from '@ant-design/icons';
+import { Dropdown, Space } from 'antd';
+
+const items = [
+    {
+        label: <a href="https://www.antgroup.com">1st menu item</a>,
+        key: '0',
+    },
+    {
+        label: <a href="https://www.aliyun.com">2nd menu item</a>,
+        key: '1',
+    },
+    {
+        type: 'divider',
+    },
+    {
+        label: '3rd menu item',
+        key: '3',
+    },
+]
+
 const MainNavbar = () => {
     return (
         <>
-            <nav className="text-md bg-500 p-4 flex justify-between items-center shadow-md">
+            <nav className="text-md bg-500 py-5 px-20 flex justify-between items-center shadow-md">
                 {/* Logo Perusahaan */}
-                <div className="text-lg font-medium ms-10">Nusa Learning</div>
+                <div className="text-lg font-medium">Nusa Learning</div>
 
                 {/* Search Bar */}
                 <div className="flex-grow mx-40">
@@ -15,18 +36,32 @@ const MainNavbar = () => {
                 </div>
 
                 {/* Link dengan Icon */}
-                <div className="flex space-x-10 me-10">
+                <div className="flex space-x-10">
                     <a href="#" className="hover:underline">
                         Beranda
                     </a>
                     <a href="#" className="hover:underline">
                         Pelatihan
                     </a>
-                    <a href="#" className="hover:underline">
-                        ID v
+
+                    <a href="">
+                        <Dropdown
+                            menu={{
+                                items,
+                            }}
+                            trigger={['click']}
+                        >
+                            <a onClick={(e) => e.preventDefault()}>
+                                <Space>
+                                    ID
+                                    <DownOutlined className='text-xs' />
+                                </Space>
+                            </a>
+                        </Dropdown>
                     </a>
+
                     <a href="#" className="hover:underline">
-                        -
+                    <BellOutlined className='text-[20px]' />
                     </a>
                     <a href="#" className="hover:underline">
                         Login
