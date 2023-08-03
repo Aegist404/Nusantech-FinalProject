@@ -1,3 +1,14 @@
+import React from 'react'
+
+
+const MainNavbar = () => {
+    return (
+        <div>
+            <p>this navbar</p>
+            
+            
+        </div>
+
 const MainNavbar = () => {
     return (
         <>
@@ -34,6 +45,7 @@ const MainNavbar = () => {
                 </div>
             </nav>
         </>
+
     )
 }
 
