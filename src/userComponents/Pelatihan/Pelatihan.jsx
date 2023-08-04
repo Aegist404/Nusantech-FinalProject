@@ -1,12 +1,14 @@
-import React from 'react';
 import { Card, Typography, Button } from 'antd';
 import { CommentOutlined, StarOutlined, EyeOutlined } from '@ant-design/icons';
-import { RightCircleOutlined } from '@ant-design/icons';
+import dataPelatihan from '../../Data/dataPelatihan.jsx';
+// import { RightCircleOutlined } from '@ant-design/icons';
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination } from 'swiper';
-import dataPelatihan from '../../../Data/dataPelatihan.jsx';
+// Import Swiper styles
+import 'swiper/css';
 
-import 'swiper/swiper-bundle';
+import { Pagination } from 'swiper/modules';
 
 
 const { Meta } = Card;
@@ -23,12 +25,32 @@ const ProductCard = () => {
         </p>
         <br />
       </div>
-      <Swiper spaceBetween={50} // Jarak antar slide
-      slidesPerView={3} // Jumlah slide yang tampil per view
-      navigation > // Aktifkan navigasi panah 
+      <Swiper
+        slidesPerView={4}
+        spaceBetween={10}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 50,
+          },
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
       {dataPelatihan.map((item, index) => (
-      <SwiperSlide key={item}>
-        <Card key={index} className="w-64 m-2" cover={<img alt="Gambar Pelatihan" src={item.image} />}>
+        <SwiperSlide key={Card.item}>
+        <Card key={index} className="w-52 m-2" cover={<img alt="Gambar Pelatihan" src={item.image} />}>
           <Meta
             title={<Text strong>{item.title}</Text>}
             description={
@@ -52,15 +74,15 @@ const ProductCard = () => {
                   <div>
                     <Text type="danger">{item.price}</Text>
                   </div>
-                </div>
+                </div>  
               </>
             }
           />
         </Card>
-      </SwiperSlide>
+        </SwiperSlide>
       ))}
       </Swiper>
-      <RightCircleOutlined style={{ fontSize: '24px', margin: '8px', display: 'block', marginTop: 130 }} />
+      {/* <RightCircleOutlined style={{ fontSize: '24px', margin: '8px', display: 'block', marginTop: 130 }} /> */}
     </div>
   );
 };
