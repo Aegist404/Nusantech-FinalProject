@@ -1,6 +1,7 @@
-import Home from "./userPages/Home"
 import { Routes , BrowserRouter , Route } from "react-router-dom"
+import Home from "./userPages/Home"
 import KategoriPelatihanPage from "./userPages/KategoriPelatihan"
+
 
 function App() {
   return (

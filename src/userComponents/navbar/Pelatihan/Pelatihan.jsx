@@ -2,10 +2,15 @@ import React from 'react';
 import { Card, Typography, Button } from 'antd';
 import { CommentOutlined, StarOutlined, EyeOutlined } from '@ant-design/icons';
 import { RightCircleOutlined } from '@ant-design/icons';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Navigation, Pagination } from 'swiper';
 import dataPelatihan from '../../../Data/dataPelatihan.jsx';
 
+import 'swiper/swiper-bundle';
+
+
 const { Meta } = Card;
-const { Text } = Typography;
+const { Text } = Typography; 
 
 const ProductCard = () => {
   return (
@@ -18,7 +23,11 @@ const ProductCard = () => {
         </p>
         <br />
       </div>
+      <Swiper spaceBetween={50} // Jarak antar slide
+      slidesPerView={3} // Jumlah slide yang tampil per view
+      navigation > // Aktifkan navigasi panah 
       {dataPelatihan.map((item, index) => (
+      <SwiperSlide key={item}>
         <Card key={index} className="w-64 m-2" cover={<img alt="Gambar Pelatihan" src={item.image} />}>
           <Meta
             title={<Text strong>{item.title}</Text>}
@@ -48,7 +57,9 @@ const ProductCard = () => {
             }
           />
         </Card>
+      </SwiperSlide>
       ))}
+      </Swiper>
       <RightCircleOutlined style={{ fontSize: '24px', margin: '8px', display: 'block', marginTop: 130 }} />
     </div>
   );
