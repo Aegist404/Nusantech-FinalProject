@@ -1,12 +1,17 @@
 import Home from "./userPages/Home"
-import Login from "./userPages/login"
+import { Routes , BrowserRouter , Route } from "react-router-dom"
+import KategoriPelatihanPage from "./userPages/KategoriPelatihan"
 
 function App() {
   return (
+    <BrowserRouter>
+    <Routes>
     <>
-      <Home />
-      <Login />
+      <Route path="/home" element={<Home/>} />
+      <Route path="/kategoriPilihan" element={<KategoriPelatihanPage/>} />
     </>
+    </Routes>
+    </BrowserRouter>
   )
 }
 
