@@ -1,8 +1,9 @@
-import Home from "./userPages/Home"
 import { Routes , BrowserRouter , Route } from "react-router-dom"
+import Home from "./userPages/Home"
 import KategoriPelatihanPage from "./userPages/KategoriPelatihan"
 import Login from "./userPages/login"
 import Register from "./userPages/register"
+
 
 function App() {
   return (

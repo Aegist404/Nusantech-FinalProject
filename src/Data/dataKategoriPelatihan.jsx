@@ -1,7 +1,7 @@
 const dataKategoriPelatihan = [
     {
-      image: 'https://via.placeholder.com/150',
-      title: 'Pelatihan 1',
+      image: 'https://cdn.dribbble.com/users/421838/screenshots/1939655/a.png',
+      title: 'Kategori A',
       description: 'Deskripsi Pelatihan 1...',
       comments: 10,
       rating: 4.2,
@@ -9,8 +9,8 @@ const dataKategoriPelatihan = [
       price: 'Rp.100.000',
     },
     {
-      image: 'https://via.placeholder.com/150',
-      title: 'Pelatihan 1',
+      image: 'https://cdn.dribbble.com/users/421838/screenshots/1939655/a.png',
+      title: 'Kategori B',
       description: 'Deskripsi Pelatihan 1...',
       comments: 10,
       rating: 4.2,
@@ -18,8 +18,8 @@ const dataKategoriPelatihan = [
       price: 'Rp.100.000',
     },
     {
-      image: 'https://via.placeholder.com/150',
-      title: 'Pelatihan 1',
+      image: 'https://cdn.dribbble.com/users/421838/screenshots/1939655/a.png',
+      title: 'Kategori C',
       description: 'Deskripsi Pelatihan 1...',
       comments: 10,
       rating: 4.2,
@@ -27,8 +27,8 @@ const dataKategoriPelatihan = [
       price: 'Rp.100.000',
     },
     {
-      image: 'https://via.placeholder.com/150',
-      title: 'Pelatihan 1',
+      image: 'https://cdn.dribbble.com/users/421838/screenshots/1939655/a.png',
+      title: 'Kategori D',
       description: 'Deskripsi Pelatihan 1...',
       comments: 10,
       rating: 4.2,
@@ -36,8 +36,8 @@ const dataKategoriPelatihan = [
       price: 'Rp.100.000',
     },
     {
-      image: 'https://via.placeholder.com/150',
-      title: 'Pelatihan 1',
+      image: 'https://cdn.dribbble.com/users/421838/screenshots/1939655/a.png',
+      title: 'Kategori E',
       description: 'Deskripsi Pelatihan 1...',
       comments: 10,
       rating: 4.2,
@@ -45,8 +45,8 @@ const dataKategoriPelatihan = [
       price: 'Rp.100.000',
     },
     {
-      image: 'https://via.placeholder.com/150',
-      title: 'Pelatihan 1',
+      image: 'https://cdn.dribbble.com/users/421838/screenshots/1939655/a.png',
+      title: 'Kategori F',
       description: 'Deskripsi Pelatihan 1...',
       comments: 10,
       rating: 4.2,
@@ -54,8 +54,8 @@ const dataKategoriPelatihan = [
       price: 'Rp.100.000',
     },
     {
-      image: 'https://via.placeholder.com/150',
-      title: 'Pelatihan 1',
+      image: 'https://cdn.dribbble.com/users/421838/screenshots/1939655/a.png',
+      title: 'Kategori G',
       description: 'Deskripsi Pelatihan 1...',
       comments: 10,
       rating: 4.2,
@@ -63,8 +63,8 @@ const dataKategoriPelatihan = [
       price: 'Rp.100.000',
     },
     {
-      image: 'https://via.placeholder.com/150',
-      title: 'Pelatihan 1',
+      image: 'https://cdn.dribbble.com/users/421838/screenshots/1939655/a.png',
+      title: 'Kategori H',
       description: 'Deskripsi Pelatihan 1...',
       comments: 10,
       rating: 4.2,
@@ -72,8 +72,8 @@ const dataKategoriPelatihan = [
       price: 'Rp.100.000',
     },
     {
-      image: 'https://via.placeholder.com/150',
-      title: 'Pelatihan 1',
+      image: 'https://cdn.dribbble.com/users/421838/screenshots/1939655/a.png',
+      title: 'Kategori I',
       description: 'Deskripsi Pelatihan 1...',
       comments: 10,
       rating: 4.2,
@@ -81,8 +81,8 @@ const dataKategoriPelatihan = [
       price: 'Rp.100.000',
     },
     {
-      image: 'https://via.placeholder.com/150',
-      title: 'Pelatihan 1',
+      image: 'https://cdn.dribbble.com/users/421838/screenshots/1939655/a.png',
+      title: 'Kategori J',
       description: 'Deskripsi Pelatihan 1...',
       comments: 10,
       rating: 4.2,
