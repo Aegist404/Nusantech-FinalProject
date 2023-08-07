@@ -1,4 +1,4 @@
-import Home from "./userPages/Home"
+import Home from "./userPages/home"
 import { Routes , BrowserRouter , Route } from "react-router-dom"
 import KategoriPelatihanPage from "./userPages/KategoriPelatihan"
 

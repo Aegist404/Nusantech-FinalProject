@@ -1,8 +1,7 @@
-import React from 'react';
 import { Card, Typography, Button } from 'antd';
 import { CommentOutlined, StarOutlined, EyeOutlined } from '@ant-design/icons';
-import { RightCircleOutlined } from '@ant-design/icons';
-import dataPelatihan from '../../../Data/dataPelatihan.jsx';
+import dataPelatihan from '../../Data/dataPelatihan.jsx';
+// import { RightCircleOutlined } from '@ant-design/icons';
 
 const { Meta } = Card;
 const { Text } = Typography;
@@ -19,7 +18,7 @@ const ProductCard = () => {
         <br />
       </div>
       {dataPelatihan.map((item, index) => (
-        <Card key={index} className="w-64 m-2" cover={<img alt="Gambar Pelatihan" src={item.image} />}>
+        <Card key={index} className="w-52 m-2" cover={<img alt="Gambar Pelatihan" src={item.image} />}>
           <Meta
             title={<Text strong>{item.title}</Text>}
             description={
@@ -49,7 +48,7 @@ const ProductCard = () => {
           />
         </Card>
       ))}
-      <RightCircleOutlined style={{ fontSize: '24px', margin: '8px', display: 'block', marginTop: 130 }} />
+      {/* <RightCircleOutlined style={{ fontSize: '24px', margin: '8px', display: 'block', marginTop: 130 }} /> */}
     </div>
   );
 };
