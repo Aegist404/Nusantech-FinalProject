@@ -1,9 +1,9 @@
-import { Form, Input, Button, Alert } from "antd";
+import { Form, Input, Button, DatePicker } from "antd";
 
 function MainRegister() {
   return (
     <center>
-      <div className="flex justify-center w-[480px] h-[55rem] border-2 mt-[20px]">
+      <div className="flex justify-center w-[480px] h-[51rem] border-2 mt-[20px]">
         <div className="w-[450px]">
           <h1 className="text-3xl mb-4 mr-[40%] mt-5">Daftar Akun Anda</h1>
           <div className="login-container">
@@ -44,7 +44,7 @@ function MainRegister() {
                 </Form.Item>
               </div>
 
-              <div className="form-item">
+              {/* <div className="form-item">
                 <label htmlFor="dateOfBirth" className="flex">
                   Tangggal Lahir
                 </label>{" "}
@@ -54,7 +54,23 @@ function MainRegister() {
                 >
                   <Input id="dateOfBirth" placeholder="Tangggal Lahir" />
                 </Form.Item>
+              </div> */}
+              <div className="form-item">
+                <label htmlFor="dateOfBirth" className="flex">
+                  Tangggal Lahir
+                </label>{" "}
+              <Form.Item
+                name="dateOfBirth"
+                className="mt-1 ml-0"
+                rules={[{ required: true, message: "Mohon masukkan tanggal lahir" }]}
+              >
+                <div className="text-left"> {/* Gaya Tailwind CSS untuk label berada di kiri */}
+                    <DatePicker id="dateOfBirth" placeholder="Tanggal Lahir" />
+                  </div>
+                </Form.Item>
+
               </div>
+
 
               <div className="form-item">
                 <label htmlFor="country" className="flex">

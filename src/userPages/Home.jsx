@@ -3,17 +3,17 @@ import ProductCard from '../userComponents/Pelatihan/Pelatihan'
 import MainFooter from '../userComponents/navigation/MainFooter'
 import Banner from '../userComponents/banner/Banner'
 import InfoPelajaran from '../informasi/InfoPelatihan'
-import Comment from '../informasi/Comment'
+// import Comment from '../informasi/Comment'
 
 const Home = () => {
     return (
         <div>
             <MainNavbar />
-            {/* <Banner /> */}
+            <Banner />
             <InfoPelajaran/>
-            <Comment/>
-            {/* <ProductCard/> */}
-            {/* <MainFooter /> */}
+            {/* <Comment/> */}
+            <ProductCard/>
+            <MainFooter />
         </div>
     )
 }
