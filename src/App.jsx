@@ -3,6 +3,7 @@ import { Routes , BrowserRouter , Route } from "react-router-dom"
 import KategoriPelatihanPage from "./userPages/KategoriPelatihan"
 import Login from "./userPages/login"
 import Register from "./userPages/register"
+import Progres from "./userPages/progres"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/kategoriPilihan" element={<KategoriPelatihanPage/>} />
       <Route path="/login" element={<Login/>} />
       <Route path="/register" element={<Register/>} />
+      <Route path="/progres" element={<Progres/>} />
     </>
     </Routes>
     </BrowserRouter>
