@@ -3,7 +3,7 @@ import Home from "./userPages/Home"
 import KategoriPelatihanPage from "./userPages/KategoriPelatihan"
 import Login from "./userPages/login"
 import Register from "./userPages/register"
-import Progres from "./userPages/progres"
+import IsiPengetahuan from "./userPages/IsiPengetahuan"
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <Route path="/kategoriPilihan" element={<KategoriPelatihanPage/>} />
       <Route path="/login" element={<Login/>} />
       <Route path="/register" element={<Register/>} />
-      <Route path="/progres" element={<Progres/>} />
+      <Route path="/isipengetahuan" element={<IsiPengetahuan/>} />
     </>
     </Routes>
     </BrowserRouter>

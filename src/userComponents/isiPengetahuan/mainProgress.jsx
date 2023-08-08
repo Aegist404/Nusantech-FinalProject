@@ -4,7 +4,7 @@ const MainProgress = () => {
   const progress = 50; // Assuming the progress is at 50%
 
   return (
-    <div className="h-screen">
+    <div className="h-screen ml-10 mt-7">
       <div className="border border-black overflow-y-scroll h-[75%] w-[20%]">
         <div className="p-3">
           <h1 className="font-bold mb-4">Progress</h1>
