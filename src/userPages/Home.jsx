@@ -1,17 +1,17 @@
-import MainNavbar from '../userComponents/navigation/mainNavbar'
-import ProductCard from '../userComponents/Pelatihan/Pelatihan'
-import MainFooter from '../userComponents/navigation/MainFooter'
-import Banner from '../userComponents/banner/Banner'
-import InfoPelajaran from '../informasi/InfoPelatihan'
-import Comment from '../informasi/Comment'
+// import MainNavbar from '../userComponents/navigation/mainNavbar'
+// import ProductCard from '../userComponents/Pelatihan/Pelatihan'
+// import MainFooter from '../userComponents/navigation/MainFooter'
+// import Banner from '../userComponents/banner/Banner'
+// import InfoPelajaran from '../userComponents/informasi/InfoPelatihan'
+import LiveChat from '../userComponents/informasi/LiveChat'
 
 const Home = () => {
     return (
         <div>
-            <MainNavbar />
+            {/* <MainNavbar /> */}
             {/* <Banner /> */}
-            <InfoPelajaran/>
-            <Comment/>
+            {/* <InfoPelajaran/> */}
+            <LiveChat/>
             {/* <ProductCard/> */}
             {/* <MainFooter /> */}
         </div>
