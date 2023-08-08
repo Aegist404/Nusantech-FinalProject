@@ -1,5 +1,5 @@
 import { Card, Typography, Button } from 'antd';
-// import { CommentOutlined, StarOutlined, EyeOutlined } from '@ant-design/icons';
+import { CommentOutlined, StarOutlined, EyeOutlined } from '@ant-design/icons';
 // import { RightCircleOutlined } from '@ant-design/icons';
 import dataKategoriPelatihan from '../../Data/dataKategoriPelatihan'
 
