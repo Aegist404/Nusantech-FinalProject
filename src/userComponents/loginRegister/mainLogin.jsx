@@ -23,7 +23,7 @@ const MainLogin =() => {
 
     return (
         <center>
-            <div className="flex justify-center w-[450px] h-[35rem] border-2">
+            <div className="flex justify-center w-[450px] h-[35rem] border-2 mt-10">
                 <div className="login-container mt-[15px">
                     <div className="flex justify-between items-center mt-5">
                         <h1 className="text-3xl">Login</h1>

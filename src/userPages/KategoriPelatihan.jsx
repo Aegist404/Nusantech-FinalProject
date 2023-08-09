@@ -1,15 +1,15 @@
-import MainNavbar from '../userComponents/navbar/MainNavbar'
-import MainFooter from '../userComponents/footer/mainFooter'
+import MainNavbar from '../userComponents/navigation/mainNavbar'
+import MainFooter from '../userComponents/navigation/MainFooter'
 import KategoriPelatihan from '../userComponents/kategoriPelatihan/kategoriPelatihan'
 
 const KategoriPelatihanPage = () => {
     return (
         <>
-        <div>
-            <MainNavbar />
-            <KategoriPelatihan/>    
-            <MainFooter />
-        </div>
+            <div>
+                <MainNavbar />
+                <KategoriPelatihan />
+                <MainFooter />
+            </div>
         </>
     )
 }
