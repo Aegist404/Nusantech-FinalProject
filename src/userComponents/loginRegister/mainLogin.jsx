@@ -17,7 +17,7 @@ const MainLogin =() => {
             const user = { username, password };
             const json = JSON.stringify(user);
             localStorage.setItem(username, json);
-            window.open("/", "_self");
+            window.open("/home", "_self");
         }
     };
 

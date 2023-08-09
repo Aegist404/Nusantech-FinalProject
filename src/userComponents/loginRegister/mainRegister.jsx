@@ -112,7 +112,7 @@ function MainRegister() {
                 htmlType="submit"
                 className="mt-2 w-[90%] border-black text-black"
               >
-                Register
+                Daftar
               </Button>
             </Form>
           </div>
