@@ -1,6 +1,6 @@
 import React from 'react'
-import MainNavbar from '../userComponents/navbar/MainNavbar'
 import MainProgress from '../userComponents/isiPengetahuan/mainProgress'
+import MainNavbar from '../userComponents/navigation/MainNavbar'
 
 function Progres() {
   return (

@@ -65,7 +65,7 @@ function MainRegister() {
                 rules={[{ required: true, message: "Mohon masukkan tanggal lahir" }]}
               >
                 <div className="text-left"> {/* Gaya Tailwind CSS untuk label berada di kiri */}
-                    <DatePicker id="dateOfBirth" placeholder="Tanggal Lahir" />
+                    <DatePicker id="dateOfBirth" placeholder="Tanggal Lahir" className="w-[100%]"/>
                   </div>
                 </Form.Item>
 

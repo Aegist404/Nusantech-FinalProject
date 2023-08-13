@@ -4,6 +4,7 @@ import KategoriPelatihanPage from "./userPages/KategoriPelatihan"
 import Login from "./userPages/login"
 import Register from "./userPages/register"
 import Progres from "./userPages/progres"
+import DetailPelatihanPages from "./userPages/detailPelatihanPages"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path="/login" element={<Login/>} />
       <Route path="/register" element={<Register/>} />
       <Route path="/progres" element={<Progres/>} />
+      <Route path="/detailPelatihan" element={<DetailPelatihanPages/>} />
     </>
     </Routes>
     </BrowserRouter>
