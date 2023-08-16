@@ -1,8 +1,8 @@
 const KontenPreviewPelatihan = () => {
   return (
-    <div className="mt-[15px]">
+    <div>
       <h1 className="font-bold">Konten Preview</h1>
-      <div className="flex border border-black p-4 w-[70vw] mt-2">
+      <div className="flex border border-black p-4 w-[64vw] mt-2">
         <div className="border border-black h-[75%] w-[30%]">
           <div className="cursor-pointer border-t border-b border-black">
             <h1 className="font-bold text-[16px] ml-2">Modul 1</h1>
@@ -28,10 +28,10 @@ const KontenPreviewPelatihan = () => {
         </div>
 
         <div className="border border-black w-[70%] ml-[10px] p-[10px]">
-          <div className="border border-black h-[40vh] w-[44vw]">
+          <div className="border border-black h-[40vh] w-[41.3vw]">
           <h1 className="center">Konten Pelatihan</h1>
           </div>
-          <div className="border border-black h-[28.4vh] mt-[15px] w-[44vw]">
+          <div className="border border-black h-[28.4vh] mt-[15px] w-[41.3vw]">
           <h1 className="center">Konten Pelatihan</h1>
           </div>
         </div>

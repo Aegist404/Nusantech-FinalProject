@@ -3,7 +3,7 @@ import React from "react";
 
 const TanggalPelatihan = () => {
   return (
-    <div className="mt-[-18%] ml-[2%]">
+    <div className="mt-[-22%]">
       <div className="border w-[100%] border-2 border-black p-4">
         <h1 className="mb-2">Pembuat</h1>
         <div className="border border-black mb-2"></div>
