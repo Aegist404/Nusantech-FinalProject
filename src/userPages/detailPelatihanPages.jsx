@@ -7,17 +7,19 @@ import TargetPelatihan from "../userComponents/beliPelatihan/targetPelatihan";
 
 const DetailPelatihanPages = () => {
   return (
-    <div>
+    <>
       <MainNavbar />
-      <div className="p-10">
+    <div className="px-20 py-5">
+      <div>
         <DetailPelatihan />
-        <div className="flex">
+        <div className="flex gap-4">
           <KontenPreviewPelatihan />
           <TanggalPelatihan />
         </div>
         <TargetPelatihan />
       </div>
     </div>
+    </>
   );
 };
 
