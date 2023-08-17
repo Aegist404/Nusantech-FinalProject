@@ -1,4 +1,5 @@
 import { DownOutlined, BellOutlined } from '@ant-design/icons';
+import  Logo from "../../public/logo.png";
 import { Dropdown, Space } from 'antd';
 
 const items = [
@@ -24,7 +25,10 @@ const MainNavbar = () => {
         <>
             <nav className="text-md bg-500 py-5 px-20 flex justify-between items-center shadow-md">
                 {/* Logo Perusahaan */}
-                <div className="text-lg font-medium">Nusa Learning</div>
+                <div className="flex items-center"> {/* Wrap dalam flex container */}
+                    <img src={Logo} alt="Logo Nusa Learning" className="h-8" />
+                    <div className="text-lg font-medium">Nusa Learning</div>
+                </div>
 
                 {/* Search Bar */}
                 <div className="flex-grow mx-40">
@@ -37,14 +41,13 @@ const MainNavbar = () => {
 
                 {/* Link dengan Icon */}
                 <div className="flex space-x-10">
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline hover:text-orange-500">
                         Beranda
                     </a>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline hover:text-orange-500 relative">
                         Pelatihan
                     </a>
-
-                    <a href="">
+                    <a href="" className='hover:text-orange-500'>
                         <Dropdown
                             menu={{
                                 items,
@@ -60,16 +63,15 @@ const MainNavbar = () => {
                         </Dropdown>
                     </a>
 
-                    <a href="#" className="hover:underline">
-                    <BellOutlined className='text-[20px]' />
+                    <a href="#" className="hover:underline hover:text-orange-500">
+                        <BellOutlined className='text-[20px]' />
                     </a>
-                    <a href="#" className="hover:underline">
+                    <a href="#" className="hover:underline hover:text-orange-500">
                         Login
                     </a>
                 </div>
             </nav>
         </>
-
     )
 }
 

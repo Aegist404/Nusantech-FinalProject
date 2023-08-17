@@ -1,8 +1,8 @@
-import MainNavbar from '../userComponents/navigation/mainNavbar'
+import MainNavbar from '../userComponents/navigation/MainNavbar'
 import ProductCard from '../userComponents/Pelatihan/Pelatihan'
 import MainFooter from '../userComponents/navigation/MainFooter'
 import Banner from '../userComponents/banner/Banner'
-import InfoPelajaran from '../informasi/InfoPelatihan'
+import KategoriPelatihan from '../userComponents/kategoriPelatihan/kategoriPelatihan'
 // import Comment from '../informasi/Comment'
 
 const Home = () => {
@@ -10,8 +10,8 @@ const Home = () => {
         <div>
             <MainNavbar />
             <Banner />
-            <InfoPelajaran/>
             {/* <Comment/> */}
+            <KategoriPelatihan/>
             <ProductCard/>
             <MainFooter />
         </div>

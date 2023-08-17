@@ -1,4 +1,4 @@
-import MainNavbar from '../userComponents/navigation/mainNavbar'
+import MainNavbar from '../userComponents/navigation/MainNavbar'
 import MainFooter from '../userComponents/navigation/MainFooter'
 import KategoriPelatihan from '../userComponents/kategoriPelatihan/kategoriPelatihan'
 
