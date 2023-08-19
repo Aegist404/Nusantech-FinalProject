@@ -11,7 +11,7 @@ const Home = () => {
             {/* <MainNavbar /> */}
             {/* <Banner /> */}
             {/* <InfoPelajaran/> */}
-            <LiveChat/>
+            {/* <LiveChat/> */}
             {/* <ProductCard/> */}
             {/* <MainFooter /> */}
         </div>
