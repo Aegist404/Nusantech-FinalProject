@@ -1,9 +1,7 @@
 import { Card, Typography, Button } from 'antd';
 import { CommentOutlined, StarOutlined, EyeOutlined } from '@ant-design/icons';
 import dataPelatihan from '../../Data/dataPelatihan.jsx';
-// import { RightCircleOutlined } from '@ant-design/icons';
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
@@ -16,13 +14,13 @@ const { Text } = Typography;
 
 const ProductCard = () => {
   return (
-    <div className="flex flex-wrap justify-center">
-      <div className="text">
-        <h4>Pelatihan</h4>
+    <div className="flex flex-wrap">
+      <div className="text ml-12">
+        <h4  className='font-bold text-xl'>Pelatihan</h4>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid molestias molestiae esse inventore voluptatibus officia inventore voluptatibus officia
-          <Button>Tampilkan semua</Button>
-        </p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid obcaecati est placeat, deleniti blanditiis expedita et! Et quidem autem 
+            <Button className='ml-4'>Tampilkan semua</Button>
+          </p>
         <br />
       </div>
       <Swiper
@@ -50,7 +48,7 @@ const ProductCard = () => {
       >
       {dataPelatihan.map((item, index) => (
         <SwiperSlide key={Card.item}>
-        <Card key={index} className="w-52 m-2" cover={<img alt="Gambar Pelatihan" src={item.image} />}>
+        <Card key={index} className="w-60 mr-10 mb-4 ml-12" cover={<img alt="Gambar Pelatihan" src={item.image} />}>
           <Meta
             title={<Text strong>{item.title}</Text>}
             description={
@@ -82,6 +80,7 @@ const ProductCard = () => {
         </SwiperSlide>
       ))}
       </Swiper>
+      
       {/* <RightCircleOutlined style={{ fontSize: '24px', margin: '8px', display: 'block', marginTop: 130 }} /> */}
     </div>
   );

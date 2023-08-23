@@ -1,5 +1,5 @@
 import { DownOutlined, BellOutlined } from '@ant-design/icons';
-import  Logo from "../../public/logo.png";
+import  Logo from "../../assets/logo.png";
 import { Dropdown, Space } from 'antd';
 
 const items = [
@@ -41,13 +41,13 @@ const MainNavbar = () => {
 
                 {/* Link dengan Icon */}
                 <div className="flex space-x-10">
-                    <a href="#" className="hover:underline hover:text-orange-500">
+                    <a href="#" className="hover:underline hover:text-purple-500">
                         Beranda
                     </a>
-                    <a href="#" className="hover:underline hover:text-orange-500 relative">
+                    <a href="#" className="hover:underline hover:text-purple-500 relative">
                         Pelatihan
                     </a>
-                    <a href="" className='hover:text-orange-500'>
+                    <a href="" className='hover:text-purple-500'>
                         <Dropdown
                             menu={{
                                 items,
@@ -63,10 +63,10 @@ const MainNavbar = () => {
                         </Dropdown>
                     </a>
 
-                    <a href="#" className="hover:underline hover:text-orange-500">
+                    <a href="#" className="hover:underline hover:text-purple-500">
                         <BellOutlined className='text-[20px]' />
                     </a>
-                    <a href="#" className="hover:underline hover:text-orange-500">
+                    <a href="#" className="hover:underline hover:text-purple-500">
                         Login
                     </a>
                 </div>
