@@ -5,6 +5,8 @@ import Login from "./userPages/login"
 import Register from "./userPages/register"
 import RegistrasiProfile from "./userPages/Registrasi"
 import DataPembelian from "./userComponents/DeteilPembelian/DetailPembelian"
+import PaymentPage from "./userComponents/pembayaran/HalamanPembayaran"
+import PembayaranBCA from "./userComponents/pembayaran/PembayaranBca"
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
       <Route path="/login" element={<Login/>} />
       <Route path="/register" element={<Register/>} />
       <Route path="/registrasi" element={<RegistrasiProfile/>} />
+      <Route path="/pembayaran" element={<PaymentPage/>} />
+      <Route path="/BCA" element={<PembayaranBCA/>} />
+
       <Route path="/registrasi/edit" Component={<DataPembelian/>} />
 
     </>
