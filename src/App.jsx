@@ -3,16 +3,11 @@ import Home from "./userPages/Home"
 import KategoriPelatihanPage from "./userPages/KategoriPelatihan"
 import Login from "./userPages/login"
 import Register from "./userPages/register"
-<<<<<<< HEAD
-import RegistrasiProfile from "./userPages/Registrasi"
-import DataPembelian from "./userComponents/DeteilPembelian/DetailPembelian"
-=======
 import Progres from "./userPages/progres"
 import DetailPelatihanPages from "./userPages/detailPelatihanPages"
 import Pembayaran from "./userComponents/pembayaran/HalamanPembayaran"
 import PembayaranBCA from "./userComponents/pembayaran/PembayaranBca"
 
->>>>>>> 04bf778699176df7673f37a6d1b6aa7fca0fd613
 
 function App() {
   return (
