@@ -5,6 +5,8 @@ import Login from "./userPages/login"
 import Register from "./userPages/register"
 import Progres from "./userPages/progres"
 import DetailPelatihanPages from "./userPages/detailPelatihanPages"
+import Pembayaran from "./userComponents/pembayaran/HalamanPembayaran"
+import PembayaranBCA from "./userComponents/pembayaran/PembayaranBca"
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <Route path="/register" element={<Register/>} />
       <Route path="/progres" element={<Progres/>} />
       <Route path="/detailPelatihan" element={<DetailPelatihanPages/>} />
+      <Route path="/pembayaran" element={<Pembayaran/>} />
+      <Route path="/BCA" element={<PembayaranBCA/>} />
     </>
     </Routes>
     </BrowserRouter>
