@@ -8,7 +8,7 @@ const Registrasi = () => {
                 <h1 className="text-2xl font-bold mb-4">REGISTRASI</h1>
 
                 <div className="flex justify-end mb-4">
-                    <Link to="/registrasi/edit" className="text-blue-500 underline">Edit</Link>
+                    <Link to="/edit" className="text-blue-500 underline">Edit</Link>
                 </div>
 
                 <div className="mb-4">
