@@ -1,5 +1,5 @@
 import { InstagramFilled, FacebookFilled, TwitterSquareFilled, YoutubeFilled } from "@ant-design/icons"
-const mainFooter = () => {
+const MainFooter = () => {
 
     const icon = { fontSize: '30px' }
 
@@ -61,4 +61,4 @@ const mainFooter = () => {
     )
 }
 
-export default mainFooter
+export default MainFooter

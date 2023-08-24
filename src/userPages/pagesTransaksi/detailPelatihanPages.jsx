@@ -4,6 +4,8 @@ import DetailPelatihan from "../../userComponents/Transaksi/beliPelatihan/detail
 import KontenPreviewPelatihan from "../../userComponents/Transaksi/beliPelatihan/kontenPreviewPelatihan";
 import TanggalPelatihan from "../../userComponents/Transaksi/beliPelatihan/tanggalPelatihan"
 import TargetPelatihan from "../../userComponents/Transaksi/beliPelatihan/targetPelatihan"
+import KomentarPelatihan from "../../userComponents/bannerPelatihan/komentarPelatihan";
+import MainFooter from "../../userComponents/navigation/MainFooter";
 
 const DetailPelatihanPages = () => {
   return (
@@ -18,7 +20,9 @@ const DetailPelatihanPages = () => {
         </div>
         <TargetPelatihan />
       </div>
+        <KomentarPelatihan />
     </div>
+        <MainFooter />
     </>
   );
 };
