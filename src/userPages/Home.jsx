@@ -1,5 +1,9 @@
-import Komentar from "../userComponents/komentarKuis/komentarKuis"
-import MainNavbar from "../userComponents/navigation/mainNavbar"
+import MainNavbar from '../userComponents/navigation/MainNavbar'
+import ProductCard from '../userComponents/Pelatihan/Pelatihan'
+import MainFooter from '../userComponents/navigation/MainFooter'
+import Banner from '../userComponents/banner/Banner'
+import KategoriPelatihan from '../userComponents/kategoriPelatihan/kategoriPelatihan'
+// import Comment from '../informasi/Comment'
 
 // import KategoriPelatihan from '../userComponents/navbar/kategoriPelatihan/kategoriPelatihan'
 // import ProductCard from '../userComponents/navbar/Pelatihan/Pelatihan'
@@ -10,11 +14,11 @@ const Home = () => {
     return (
         <div>
             <MainNavbar />
-            <Komentar />
-            {/* <KategoriPelatihan/> */}
-            {/* <ProductCard/>
-            <MainFooter /> */}
-            {/* <BannerPelatihan /> */}
+            <Banner />
+            {/* <Comment/> */}
+            <KategoriPelatihan/>
+            <ProductCard/>
+            <MainFooter />
         </div>
     )
 }

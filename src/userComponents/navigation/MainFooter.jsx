@@ -5,7 +5,7 @@ const MainFooter = () => {
 
     return (
         <>
-            <footer className="shadow-md py-8 px-20 flex flex-col lg:flex-row justify-between justify-items-center">
+            <footer className="shadow-md py-8 px-20 flex flex-col lg:flex-row justify-between justify-items-center mt-12 bg-gray-400 text-white">
                 {/* 5 About Sections */}
                 <div className="flex flex-col mb-4 lg:mb-0">
                     <h3 className="text-lg font-semibold">NusaLearning</h3>
@@ -16,9 +16,9 @@ const MainFooter = () => {
                     <h3 className="text-lg font-semibold">About</h3>
                     <p className="mt-2">
                         <ul>
-                            <li><a href="">Pripacy Policy</a></li>
-                            <li><a href="">Help Center</a></li>
-                            <li><a href="">Terms & Condition</a></li>
+                            <li className="hover:text-violet-500"><a href="">Privacy Policy</a></li>
+                            <li className="hover:text-violet-500"><a href="">Help Center</a></li>
+                            <li className="hover:text-violet-500"><a href="">Terms & Condition</a></li>
                         </ul>
                     </p>
                 </div>
@@ -26,7 +26,7 @@ const MainFooter = () => {
                 <div className="flex flex-col mb-4 lg:mb-0">
                     <h3 className="text-lg font-semibold">Service</h3>
                     <p className="mt-2">
-                        <a href="">Check Certificate</a>
+                        <a href="" className="hover:text-violet-500">Check Certificate</a>
                     </p>
                 </div>
 
@@ -34,10 +34,10 @@ const MainFooter = () => {
                     <h3 className="text-lg font-semibold">Follow Us On</h3>
                     <p className="mt-2">
                         <ul className="flex space-x-5">
-                            <li><a href=""><FacebookFilled style={icon} /></a></li>
-                            <li><a href=""><InstagramFilled style={icon} /></a></li>
-                            <li><a href=""><TwitterSquareFilled style={icon} /></a></li>
-                            <li><a href=""><YoutubeFilled style={icon} /></a></li>
+                            <li><a href="" className="hover:text-violet-500"><FacebookFilled style={icon} /></a></li>
+                            <li><a href="" className="hover:text-violet-500"><InstagramFilled style={icon} /></a></li>
+                            <li><a href="" className="hover:text-violet-500"><TwitterSquareFilled style={icon} /></a></li>
+                            <li><a href="" className="hover:text-violet-500"><YoutubeFilled style={icon} /></a></li>
                         </ul>
                     </p>
                 </div>

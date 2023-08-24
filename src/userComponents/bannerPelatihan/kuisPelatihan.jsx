@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Radio } from 'antd';
 const KuisRadio = () => {
   const [value, setValue] = useState(1);
