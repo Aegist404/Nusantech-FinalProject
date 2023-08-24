@@ -4,6 +4,8 @@ import KategoriPelatihanPage from "./userPages/KategoriPelatihan"
 import Login from "./userPages/login"
 import Register from "./userPages/register"
 import IsiPengetahuan from "./userPages/IsiPengetahuan"
+import DetailPelatihanPages from "./userPages/pagesTransaksi/detailPelatihanPages"
+import PusatPengetahuan from "./userPages/PusatPengetahuan"
 
 
 function App() {
@@ -16,7 +18,8 @@ function App() {
       <Route path="/login" element={<Login/>} />
       <Route path="/register" element={<Register/>} />
       <Route path="/isipengetahuan" element={<IsiPengetahuan/>} />
-      <Route path="/isipengetahuan" element={<IsiPengetahuan/>} />
+      <Route path="/detailPelatihan" element={<DetailPelatihanPages/>} />
+      <Route path="/pusatPengetahuan" element={<PusatPengetahuan />} />
     </>
     </Routes>
     </BrowserRouter>

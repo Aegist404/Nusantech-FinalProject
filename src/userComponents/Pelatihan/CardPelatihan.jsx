@@ -12,7 +12,7 @@ import { Pagination } from 'swiper/modules';
 const { Meta } = Card;
 const { Text } = Typography; 
 
-const ProductCard = () => {
+const CardPelatihan = () => {
   return (
     <div className="flex flex-wrap">
       <div className="text ml-12">
@@ -86,4 +86,4 @@ const ProductCard = () => {
   );
 };
 
-export default ProductCard;
+export default CardPelatihan;
