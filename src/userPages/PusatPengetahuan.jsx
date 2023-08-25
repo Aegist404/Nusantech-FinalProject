@@ -1,8 +1,9 @@
 import React from 'react';
 import { Layout, Menu } from 'antd';
 import MainNavbar from '../userComponents/navigation/MainNavbar';
-import CardPelatihan2 from '../userComponents/Pelatihan/CardPelatihan2';
+import CardPelatihan2 from '../userComponents/Pelatihan/pelatihan2/CardPelatihan2';
 import MainFooter from '../userComponents/navigation/MainFooter';
+import HalamanPelatihan from '../userComponents/Pelatihan/pelatihan2/halamanPelatihan';
 
 const { Content, Sider } = Layout;
 
@@ -47,6 +48,9 @@ function PusatPengetahuan() {
               <CardPelatihan2 />
             </div>
           </Content>
+          <div className='flex justify-center ml-[61%]'>
+      <HalamanPelatihan />
+          </div>
         </Layout>
       </Layout>
       <MainFooter />

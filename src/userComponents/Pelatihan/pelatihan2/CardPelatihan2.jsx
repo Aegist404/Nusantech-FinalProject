@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Typography } from "antd";
 import { CommentOutlined, StarOutlined, EyeOutlined } from "@ant-design/icons";
-import dataPelatihan from "../../Data/dataPelatihan2.jsx";
+import dataPelatihan from "../../../Data/dataPelatihan2";
 
 const { Meta } = Card;
 const { Text } = Typography;

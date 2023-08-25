@@ -1,6 +1,6 @@
 import { Card, Typography, Button } from 'antd';
 import { CommentOutlined, StarOutlined, EyeOutlined } from '@ant-design/icons';
-import dataPelatihan from '../../Data/dataPelatihan.jsx';
+import dataPelatihan from '../../../Data/dataPelatihan.jsx';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles

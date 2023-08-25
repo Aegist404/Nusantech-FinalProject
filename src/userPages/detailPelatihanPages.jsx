@@ -5,7 +5,7 @@ import KontenPreviewPelatihan from "../userComponents/beliPelatihan/kontenPrevie
 import TanggalPelatihan from "../userComponents/beliPelatihan/tanggalPelatihan";
 import TargetPelatihan from "../userComponents/beliPelatihan/targetPelatihan";
 import Komentar from "../userComponents/komentarKuis/komentarKuis";
-
+import MainFooter from "../userComponents/navigation/MainFooter";
 
 
 const DetailPelatihanPages = () => {
