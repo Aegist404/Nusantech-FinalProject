@@ -1,4 +1,3 @@
-import React from 'react'
 import MainProgress from '../userComponents/isiPengetahuan/mainProgress'
 import MainNavbar from '../userComponents/navigation/MainNavbar'
 

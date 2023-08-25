@@ -9,17 +9,20 @@ const { Text } = Typography;
 const KategoriPelatihan = () => {
   return (
     <div className='ms-5'>
-      <div className="flex flex-wrap justify-center">
-        <div className="text">
-          <h4>Pelatihan</h4>
+      <div className="flex flex-wrap">
+        <div className="text mt-20 ml-8 mb-4">
+          <h4 className='font-bold text-xl'>Kategori Pelatihan</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid molestias molestiae esse inventore voluptatibus officia inventore voluptatibus officia
-            <Button>Tampilkan semua</Button>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid obcaecati est placeat, deleniti blanditiis expedita et! Et quidem autem 
+            <Button className='ml-4'>Tampilkan semua</Button>
           </p>
           <br />
         </div>
+
+        <div className="grid grid-cols-2 ml-8">
+
         {dataKategoriPelatihan.map((item, index) => (
-          <Card key={index} className="w-52 m-1  " cover={<img alt="Gambar Pelatihan" src={item.image} />}>
+          <Card key={index} className="w-60 mr-10 mb-4" cover={<img alt="Gambar Pelatihan" src={item.image} />}>
             <Meta
               title={<Text strong>{item.title}</Text>}
               description={
@@ -46,10 +49,12 @@ const KategoriPelatihan = () => {
                   </div>
                 </>
               }
-            />
+              />
           </Card>
         ))}
+        </div>
       </div>
+      <hr className='mt-6 mb-8'/>
     </div>
   );
 };

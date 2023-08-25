@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Form, Input, Button, Alert } from "antd";
+import { Link } from 'react-router-dom';
 
 const MainLogin =() => {
     const [username, setUsername] = useState("");
@@ -23,13 +24,13 @@ const MainLogin =() => {
 
     return (
         <center>
-            <div className="flex justify-center w-[450px] h-[35rem] border-2 mt-10">
-                <div className="login-container mt-[15px">
+            <div className="flex justify-center w-[450px] h-[35rem] border-2 mt-10  shadow-xl">
+                <div className="login-container mt-[15px]">
                     <div className="flex justify-between items-center mt-5">
-                        <h1 className="text-3xl">Login</h1>
+                        <h1 className="text-3xl font-bold">Login</h1>
                         <span>
-                            <a href="">Daftar Akun Baru</a>
-                        </span>
+                        <Link to="/register">Daftar Akun Baru</Link>
+                      </span>
                     </div>
                     <Form onFinish={handleSubmit}>
                         <div className="form-item mt-[30px]">
