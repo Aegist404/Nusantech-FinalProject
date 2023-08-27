@@ -3,9 +3,9 @@ import { Form, Input, Button, DatePicker } from "antd";
 function MainRegister() {
   return (
     <center>
-      <div className="flex justify-center w-[480px] h-[51rem] border-2 mt-[20px]">
+      <div className="flex justify-center w-[480px] h-[51rem] border-2 mt-[20px] shadow-xl">
         <div className="w-[450px]">
-          <h1 className="text-3xl mb-4 mr-[40%] mt-5">Daftar Akun Anda</h1>
+          <h1 className="text-3xl mb-4 mr-[40%] mt-5 font-bold">Daftar Akun Anda</h1>
           <div className="login-container">
             <Form>
               <div className="form-item mt-[30px]">
@@ -65,7 +65,7 @@ function MainRegister() {
                 rules={[{ required: true, message: "Mohon masukkan tanggal lahir" }]}
               >
                 <div className="text-left"> {/* Gaya Tailwind CSS untuk label berada di kiri */}
-                    <DatePicker id="dateOfBirth" placeholder="Tanggal Lahir" />
+                    <DatePicker id="dateOfBirth" placeholder="Tanggal Lahir" className="w-[100%]"/>
                   </div>
                 </Form.Item>
 
@@ -128,7 +128,7 @@ function MainRegister() {
                 htmlType="submit"
                 className="mt-2 w-[90%] border-black text-black"
               >
-                Register
+                Daftar
               </Button>
             </Form>
           </div>

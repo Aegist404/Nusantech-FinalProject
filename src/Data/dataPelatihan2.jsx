@@ -73,6 +73,15 @@ const dataPelatihan = [
       dilihat: 50,
       price: 'Rp.100.000',
     },
+    {
+      image: p1,
+      title: 'Pelatihan 8',
+      description: 'Deskripsi Pelatihan 1...',
+      comments: 10,
+      rating: 4.2,
+      dilihat: 50,
+      price: 'Rp.100.000',
+    },
   
   ];
 

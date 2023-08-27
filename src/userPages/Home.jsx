@@ -1,21 +1,21 @@
-import MainNavbar from '../userComponents/navigation/mainNavbar'
-import ProductCard from '../userComponents/Pelatihan/Pelatihan'
-import MainFooter from '../userComponents/navigation/MainFooter'
-import Banner from '../userComponents/banner/Banner'
-import InfoPelajaran from '../informasi/InfoPelatihan'
-// import Comment from '../informasi/Comment'
+import MainNavbar from "../userComponents/navigation/MainNavbar";
+import MainFooter from "../userComponents/navigation/MainFooter";
+import Banner from "../userComponents/banner/Banner";
+import KategoriPelatihan from "../userComponents/kategoriPelatihan/kategoriPelatihan";
+import CardPelatihan from "../userComponents/Pelatihan/Pelatihan1/CardPelatihan";
+
 
 const Home = () => {
-    return (
-        <div>
-            <MainNavbar />
-            <Banner />
-            <InfoPelajaran/>
-            {/* <Comment/> */}
-            <ProductCard/>
-            <MainFooter />
-        </div>
-    )
-}
+  return (
+    <>
+      <MainNavbar />
+      <Banner />
+      {/* <Comment/> */}
+      <KategoriPelatihan />
+      <CardPelatihan  />
+      <MainFooter />
+    </>
+  );
+};
 
-export default Home
+export default Home;
