@@ -10,7 +10,7 @@ import PaymentPage from "./userComponents/pembayaran/HalamanPembayaran"
 import Gopay from "./userPages/Pembayaran/gopay"
 import Debit from "./userPages/Pembayaran/debit"
 import Bca from "./userPages/Pembayaran/bca"
-
+import DetailPembelian from "./userComponents/DeteilPembelian/DetailPembelian"
 function App() {
   return (
     <BrowserRouter>
@@ -23,6 +23,7 @@ function App() {
       <Route path="/detailPelatihan" element={<DetailPelatihanPages />} />
       <Route path="/pusatPengetahuan" element={<PusatPengetahuan/>} />
       <Route path="/pembayaran" element={<PaymentPage/>} />
+      <Route path="/edit" element={<DetailPembelian/>} />
       <Route path="/Bca" element={<Bca/>} />
       <Route path="/Gopay" element={<Gopay />} />
       <Route path="/Debit" element={<Debit/>} />

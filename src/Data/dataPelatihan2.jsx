@@ -44,7 +44,7 @@ const dataPelatihan = [
       comments: 10,
       rating: 4.2,
       dilihat: 50,
-      price: 'Rp.100.000',
+      price: 'Free',
     },
     {
       image: p1,
