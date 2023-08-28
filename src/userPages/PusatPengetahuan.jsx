@@ -4,6 +4,8 @@ import MainNavbar from '../userComponents/navigation/MainNavbar';
 import CardPelatihan2 from '../userComponents/Pelatihan/pelatihan2/CardPelatihan2';
 import MainFooter from '../userComponents/navigation/MainFooter';
 import HalamanPelatihan from '../userComponents/Pelatihan/pelatihan2/halamanPelatihan';
+import SortPengetahuan from '../userComponents/pusatPengetahuan/sortPengetahuan';
+import FilterKategori from '../userComponents/pusatPengetahuan/FilterKategori';
 
 const { Content, Sider } = Layout;
 
@@ -13,9 +15,12 @@ function PusatPengetahuan() {
       <MainNavbar />
       <Layout className="min-h-screen">
         <Sider width={250} theme="dark">
-          <Menu theme="dark" mode="vertical">
+        <h1 className='text-white text-[20px] font-bold ml-5 mt-10'>Filter</h1>
+        <div className='pl-10'>
+        <FilterKategori />
+        </div>
+          {/* <Menu theme="dark" mode="vertical">
             <Menu.Item key="1">
-              <h1 className='text-white text-[17px] font-bold'>Filter</h1>
             </Menu.Item>
             <Menu.Item key="2">
               <h1 className='ml-6'>Kategory <span></span></h1>
@@ -40,11 +45,14 @@ function PusatPengetahuan() {
             <h1>.....</h1>
             </Menu.Item>
             </div>
-          </Menu>
+          </Menu> */}
         </Sider>
         <Layout>
           <Content>
             <div>
+              <div>
+              <SortPengetahuan /> 
+              </div>
               <CardPelatihan2 />
             </div>
           </Content>

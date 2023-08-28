@@ -6,6 +6,7 @@ import TanggalPelatihan from "../userComponents/beliPelatihan/tanggalPelatihan";
 import TargetPelatihan from "../userComponents/beliPelatihan/targetPelatihan";
 import Komentar from "../userComponents/komentarKuis/komentarKuis";
 import MainFooter from "../userComponents/navigation/MainFooter";
+import Ulasan from "../userComponents/beliPelatihan/ulasan";
 
 
 const DetailPelatihanPages = () => {
@@ -21,7 +22,7 @@ const DetailPelatihanPages = () => {
         </div>
         <TargetPelatihan />
       </div>
-        <Komentar />
+        <Ulasan />
     </div>
         <MainFooter />
     </>

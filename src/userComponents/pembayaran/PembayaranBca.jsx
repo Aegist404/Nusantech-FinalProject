@@ -13,7 +13,7 @@ const PembayaranBCA = () => {
   };
 
   return (
-    <div className="bg-gray-100 h-screen flex flex-col justify-center items-center">
+    <div className="bg-gray-100 h-screen flex flex-col justify-center items-center ">
       <div className="w-96 shadow-lg rounded-t-lg bg-white overflow-auto">
         <div className='bg-blue-100 h-32 p-6'>
           <Title level={3} className="mb-4">

@@ -4,6 +4,8 @@ import MainProgress from '../userComponents/isiPengetahuan/mainProgress'
 import MainNavbar from '../userComponents/navigation/MainNavbar'
 import Komentar from '../userComponents/komentarKuis/komentarKuis'
 import Keuntungan from '../userComponents/isiPengetahuan/Keuntungan'
+import CardPelatihan from '../userComponents/Pelatihan/Pelatihan1/CardPelatihan'
+import CardPelatihan2 from '../userComponents/Pelatihan/pelatihan2/CardPelatihan2'
 
 const IsiPengetahuan = () => {
   return (
@@ -16,6 +18,9 @@ const IsiPengetahuan = () => {
       <Keuntungan />
       <Komentar />
       </div>
+      </div>
+      <div className=''>
+      {/* <CardPelatihan /> */}
       </div>
       <MainFooter/>
     </div>
