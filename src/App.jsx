@@ -11,6 +11,8 @@ import Gopay from "./userPages/Pembayaran/gopay"
 import Debit from "./userPages/Pembayaran/debit"
 import Bca from "./userPages/Pembayaran/bca"
 import IsiPengetahuan from "./userPages/IsiPengetahuan"
+import DetailPembelian from "./userComponents/DeteilPembelian/DetailPembelian"
+import RatingAndCommentComponent from "./userComponents/komentarKuis/Rating"
 
 function App() {
   return (
@@ -23,8 +25,10 @@ function App() {
       <Route path="/registrasi" element={<RegistrasiProfile/>} />
       <Route path="/detailPelatihan" element={<DetailPelatihanPages />} />
       <Route path="/isiPengetahuan" element={<IsiPengetahuan />} />
+      <Route path="/Rating" element={<RatingAndCommentComponent/>} />
       <Route path="/pusatPengetahuan" element={<PusatPengetahuan/>} />
       <Route path="/pembayaran" element={<PaymentPage/>} />
+      <Route path="/edit" element={<DetailPembelian/>} />
       <Route path="/Bca" element={<Bca/>} />
       <Route path="/Gopay" element={<Gopay />} />
       <Route path="/Debit" element={<Debit/>} />

@@ -6,21 +6,23 @@ import Komentar from '../userComponents/komentarKuis/komentarKuis'
 import Keuntungan from '../userComponents/isiPengetahuan/Keuntungan'
 import CardPelatihan from '../userComponents/Pelatihan/Pelatihan1/CardPelatihan'
 import CardPelatihan2 from '../userComponents/Pelatihan/pelatihan2/CardPelatihan2'
+import RatingResult from '../userComponents/komentarKuis/ComentRating'
 
 const IsiPengetahuan = () => {
   return (
     <div>
       <MainNavbar />
       <CoverPelatihan/>
-      <div className='flex'>
+      <div className='flex mt-3 border-b border-black mb-5'>
       <MainProgress/>
         <div>
       <Keuntungan />
+      <RatingResult />
       <Komentar />
       </div>
       </div>
       <div className=''>
-      {/* <CardPelatihan /> */}
+      <CardPelatihan />
       </div>
       <MainFooter/>
     </div>

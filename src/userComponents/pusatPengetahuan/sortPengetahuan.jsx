@@ -29,7 +29,7 @@ const items = [
     key: '4',
     label: (
       <a target="_blank" rel="noopener noreferrer" href="#">
-        Highest Rate
+        Highest 
       </a>
     ),
   },

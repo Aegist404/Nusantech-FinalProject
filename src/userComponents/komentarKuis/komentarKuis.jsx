@@ -35,7 +35,7 @@ const Komentar = () => {
   };
 
   return (
-    <div className="p-4">
+    <div className="p-4 ml-2">
       <h1 className="text-2xl font-bold mb-4">Komentar</h1>
       {commentsData.slice(0, 2).map((comment, index) => (
         <Comment key={index} {...comment} />
@@ -50,9 +50,10 @@ const Komentar = () => {
             
             {showThirdComment ? 'Show Less' : 'Show More'}
           </button><br />
-          <button className='border border-black p-0 rounded-xl w-56'>
+          <a href="/Rating"><button className='border border-black p-0 rounded-xl w-56'>
             + Leave a Review
           </button>
+          </a>
           </div>
           {showThirdComment && <Comment {...commentsData[2]} />}
         </div>

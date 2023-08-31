@@ -41,10 +41,10 @@ const MainNavbar = () => {
 
                 {/* Link dengan Icon */}
                 <div className="flex space-x-10">
-                    <a href="#" className="hover:underline hover:text-purple-500">
+                    <a href="/" className="hover:underline hover:text-purple-500">
                         Beranda
                     </a>
-                    <a href="#" className="hover:underline hover:text-purple-500 relative">
+                    <a href="/pusatPengetahuan" className="hover:underline hover:text-purple-500 relative">
                         Pelatihan
                     </a>
                     <a href="" className='hover:text-purple-500'>
@@ -66,7 +66,7 @@ const MainNavbar = () => {
                     <a href="#" className="hover:underline hover:text-purple-500">
                         <BellOutlined className='text-[20px]' />
                     </a>
-                    <a href="#" className="hover:underline hover:text-purple-500">
+                    <a href="/login" className="hover:underline hover:text-purple-500">
                         Login
                     </a>
                 </div>

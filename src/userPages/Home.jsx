@@ -10,7 +10,6 @@ const Home = () => {
     <>
       <MainNavbar />
       <Banner />
-      {/* <Comment/> */}
       <KategoriPelatihan />
       <CardPelatihan  />
       <MainFooter />

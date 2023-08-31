@@ -14,7 +14,7 @@ const KategoriPelatihan = () => {
           <h4 className='font-bold text-xl'>Kategori Pelatihan</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid obcaecati est placeat, deleniti blanditiis expedita et! Et quidem autem 
-            <Button className='ml-4'>Tampilkan semua</Button>
+            <a href="/kategoriPilihan"><Button className='ml-4'>Tampilkan semua</Button></a>
           </p>
           <br />
         </div>

@@ -36,7 +36,7 @@ const Ulasan = () => {
 
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">Ulasan</h1>
+      <h1 className="text-2xl font-bold mb-4 border-b border-black">Ulasan</h1>
       {commentsData.slice(0, 2).map((comment, index) => (
         <Comment key={index} {...comment} />
       ))}
