@@ -5,9 +5,9 @@ import CommentSection from "../userComponents/komentarKuis/ComentRating";
 const RegistrasiProfile = ( ) => {
     return(
         <div>
-            {/* <MainNavbar/>
+            <MainNavbar/>
             <Registrasi/>
-            <MainFooter/> */}
+            <MainFooter/>
             <CommentSection/>
         </div>
     )

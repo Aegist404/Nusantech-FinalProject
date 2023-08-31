@@ -15,7 +15,7 @@ const PembayaranGopay = () => {
 
   return (
     <div className="bg-gray-100 h-screen flex flex-col justify-center items-center">
-      <div className="w-99 p-4 shadow-lg rounded-t-lg bg-white overflow-auto">
+      <div className="w-99 p-4 shadow-lg rounded-md bg-white overflow-auto">
         <Title level={3} className="mb-4">
           Nusa KMS
         </Title>
